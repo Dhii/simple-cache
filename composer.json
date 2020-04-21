@@ -12,5 +12,21 @@
       "name": "Anton Ukhanev",
       "role": "Developer"
     }
-  ]
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0 | ^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dhii\\SimpleCache\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dhii\\SimpleCache\\Test\\Unit\\": "tests/unit"
+    }
+  }
 }
