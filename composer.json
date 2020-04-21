@@ -1,0 +1,16 @@
+{
+  "name": "dhii/simple-cache",
+  "description": "An extension to PSR-16",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dhii",
+      "role": "Organization"
+    },
+    {
+      "name": "Anton Ukhanev",
+      "role": "Developer"
+    }
+  ]
+}
